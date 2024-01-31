@@ -10,6 +10,8 @@ end
 
 platforms :ruby do
   gem "sqlite3"
+  gem "money", git: 'https://github.com/jhhb/money.git', branch: 'inf-precision'
+  gem "monetize", git: 'https://github.com/jhhb/monetize.git', branch: 'inf-precision'
 end
 
 platform :mri do
